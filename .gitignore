@@ -1,0 +1,8 @@
+# Object file
+
+# dependencies
+node_modules
+build
+
+# Ada Library Information
+*.ali
