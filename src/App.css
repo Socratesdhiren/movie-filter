@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-dropdown-menu-title-content{
+  color: #1890ff;
+}
+.ant-dropdown-menu-item{
+  color: #1890ff;
+
+}
+
+.ant-space{
+  display: flex !important;
+
+}
+.ant-space-align-baseline {
+  display: flex !important;
+}

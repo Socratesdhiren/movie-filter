@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Row, Pagination, Input, Spin } from "antd";
 import MovieCard from "./MovieCard";
-import axios from "axios";
-const baseUrl = `https://www.omdbapi.com/?`;
-const OMDbAPI = `http://www.omdbapi.com/?i=tt3896198&apikey=13aa1db5`;
+import {getMoviesList} from './API/MoviesAPI';
+
 const { Search } = Input;
 
 const MoviesList = () => {
@@ -13,21 +12,15 @@ const MoviesList = () => {
   const [loading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState("fast");
 
-  const fetchMoviesList = (page, searchValue) => {
+  const fetchMoviesList = async(page, searchValue) => {
     setLoading(true);
-    axios
-      .get(`${baseUrl}s=${searchValue}&apikey=13aa1db5&page=${page}`)
-      .then((response) => {
-        console.log(response, "responsee");
-        setMovies(response?.data?.Search || []);
-        setTotalPage(response?.data?.totalResults);
-      })
-      .catch((error) => {
-        console.log(error, "error");
-      })
-      .then(() => {
-        setLoading(false);
-      });
+   const response = await getMoviesList(searchValue, page);
+   if(response){
+    setMovies(response?.data?.Search || []);
+    setTotalPage(response?.data?.totalResults);
+   }
+ 
+   setLoading(false)
   };
 
   const handlePageChange = (value) => {
@@ -55,7 +48,7 @@ const MoviesList = () => {
         <Search
           placeholder="input search text"
           onSearch={onSearch}
-          defaultvalue={searchText}
+          defaultValue={searchText}
           enterButton
           style={{ width: "400px", marginLeft: "200px" }}
         />

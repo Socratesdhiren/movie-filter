@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import { Card, Tag, Modal, Row, Col, Rate, Statistic } from "antd";
 import { LikeOutlined } from "@ant-design/icons";
 import axios from "axios";
@@ -71,7 +71,7 @@ const MovieCard = (props) => {
         style={{ width: 240, margin: "20px" }}
         cover={<img alt="example" src={movie?.Poster} />}
         onClick={() => {
-          handleMovieClick(movie?.imdbID);
+         // handleMovieClick(movie?.imdbID);
         }}
       >
         <Meta title={movie?.Title} description={description} />
@@ -148,4 +148,4 @@ const MovieCard = (props) => {
   );
 };
 
-export default MovieCard;
+export default memo(MovieCard);

@@ -1,0 +1,2376 @@
+[
+    {
+      "attribute": "isCrashed",
+      "title": "isCrashed",
+      "type": "boolean",
+      "operator": [
+        {
+          "key": "is true",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": true,
+      "possibleValue": [
+        {
+          "key": "is true",
+          "val": true
+        },
+        {
+          "key": "is false",
+          "val": false
+        }
+      ]
+    },
+    {
+      "attribute": "appVersion",
+      "title": "App version",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        },
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "sdkVersion",
+      "title": "UXCam SDK version",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        },
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": true,
+      "possibleValue": [
+        {
+          "key": "3.0.0 (ios)",
+          "val": "3.0.0",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.1 (ios)",
+          "val": "3.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.2 (ios)",
+          "val": "3.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.3 (ios)",
+          "val": "3.0.3",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.4 (ios)",
+          "val": "3.0.4",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.5 (ios)",
+          "val": "3.0.5",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.6 (ios)",
+          "val": "3.0.6",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.0 (ios)",
+          "val": "3.1.0",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.1 (ios)",
+          "val": "3.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.10 (ios)",
+          "val": "3.1.10",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.11 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.12 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.13 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.14 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.15 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.2 (ios)",
+          "val": "3.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.3 (ios)",
+          "val": "3.1.3",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.4 (ios)",
+          "val": "3.1.4",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.5 (ios)",
+          "val": "3.1.5",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.6 (ios)",
+          "val": "3.1.6",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.7 (ios)",
+          "val": "3.1.7",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.8 (ios)",
+          "val": "3.1.8",
+          "type": "ios"
+        },
+        {
+          "key": "3.1.9 (ios)",
+          "val": "3.1.9",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.0 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.1 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.2 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.3 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.4 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.5 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.2.6 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.0 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.1 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.2 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.3 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.4 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.5 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.6 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.7 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.8 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.3.9 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.4.0 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.4.1 (ios)",
+          "type": "ios"
+        },
+        {
+          "key": "3.0.0 (android)",
+          "val": "3.0.0",
+          "type": "android"
+        },
+        {
+          "key": "3.0.1 (android)",
+          "val": "3.0.1",
+          "type": "android"
+        },
+        {
+          "key": "3.0.2 (android)",
+          "val": "3.0.2",
+          "type": "android"
+        },
+        {
+          "key": "3.0.3 (android)",
+          "val": "3.0.3",
+          "type": "android"
+        },
+        {
+          "key": "3.0.4 (android)",
+          "val": "3.0.4",
+          "type": "android"
+        },
+        {
+          "key": "3.0.5 (android)",
+          "val": "3.0.5",
+          "type": "android"
+        },
+        {
+          "key": "3.0.6 (android)",
+          "val": "3.0.6",
+          "type": "android"
+        },
+        {
+          "key": "3.0.7 (android)",
+          "val": "3.0.7",
+          "type": "android"
+        },
+        {
+          "key": "3.0.8 (android)",
+          "val": "3.0.8",
+          "type": "android"
+        },
+        {
+          "key": "3.0.9 (android)",
+          "val": "3.0.9",
+          "type": "android"
+        },
+        {
+          "key": "3.1.0 (android)",
+          "val": "3.1.0",
+          "type": "android"
+        },
+        {
+          "key": "3.1.1 (android)",
+          "val": "3.1.1",
+          "type": "android"
+        },
+        {
+          "key": "3.1.10 (android)",
+          "val": "3.1.10",
+          "type": "android"
+        },
+        {
+          "key": "3.1.11 (android)",
+          "val": "3.1.11",
+          "type": "android"
+        },
+        {
+          "key": "3.1.12 (android)",
+          "val": "3.1.12",
+          "type": "android"
+        },
+        {
+          "key": "3.1.2 (android)",
+          "val": "3.1.2",
+          "type": "android"
+        },
+        {
+          "key": "3.1.3 (android)",
+          "val": "3.1.3",
+          "type": "android"
+        },
+        {
+          "key": "3.1.4 (android)",
+          "val": "3.1.4",
+          "type": "android"
+        },
+        {
+          "key": "3.1.5 (android)",
+          "val": "3.1.5",
+          "type": "android"
+        },
+        {
+          "key": "3.1.6 (android)",
+          "val": "3.1.6",
+          "type": "android"
+        },
+        {
+          "key": "3.1.7 (android)",
+          "val": "3.1.7",
+          "type": "android"
+        },
+        {
+          "key": "3.1.8 (android)",
+          "val": "3.1.8",
+          "type": "android"
+        },
+        {
+          "key": "3.1.9 (android)",
+          "val": "3.1.9",
+          "type": "android"
+        },
+        {
+          "key": "3.2.0 (android)",
+          "type": "android"
+        },
+        {
+          "key": "3.2.1 (android)",
+          "type": "android"
+        },
+        {
+          "key": "3.3.0 (android)",
+          "type": "android"
+        },
+        {
+          "key": "3.3.1 (android)",
+          "val": "3.3.1",
+          "type": "android"
+        },
+        {
+          "key": "3.3.2 (android)",
+          "val": "3.3.2",
+          "type": "android"
+        },
+        {
+          "key": "3.3.3 (android)",
+          "val": "3.3.3",
+          "type": "android"
+        },
+        {
+          "key": "3.3.4 (android)",
+          "val": "3.3.4",
+          "type": "android"
+        },
+        {
+          "key": "3.3.5 (android)",
+          "val": "3.3.5",
+          "type": "android"
+        },
+        {
+          "key": "3.3.6 (android)",
+          "val": "3.3.6",
+          "type": "android"
+        },
+        {
+          "key": "3.3.7 (android)",
+          "val": "3.3.7",
+          "type": "android"
+        },
+        {
+          "key": "3.4.0 (android)",
+          "val": "3.4.0",
+          "type": "android"
+        },
+        {
+          "key": "3.4.1 (android)",
+          "val": "3.4.1",
+          "type": "android"
+        }
+      ]
+    },
+    {
+      "attribute": "country",
+      "title": "country",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        },
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": true,
+      "possibleValue": [
+        {
+          "key": "Afghanistan",
+          "val": "Afghanistan"
+        },
+        {
+          "key": "Albania",
+          "val": "Albania"
+        },
+        {
+          "key": "Algeria",
+          "val": "Algeria"
+        },
+        {
+          "key": "American Samoa",
+          "val": "American Samoa"
+        },
+        {
+          "key": "Andorra",
+          "val": "Andorra"
+        },
+        {
+          "key": "Angola",
+          "val": "Angola"
+        },
+        {
+          "key": "Anguilla",
+          "val": "Anguilla"
+        },
+        {
+          "key": "Antarctica",
+          "val": "Antarctica"
+        },
+        {
+          "key": "Antigua and Barbuda",
+          "val": "Antigua and Barbuda"
+        },
+        {
+          "key": "Argentina",
+          "val": "Argentina"
+        },
+        {
+          "key": "Armenia",
+          "val": "Armenia"
+        },
+        {
+          "key": "Aruba",
+          "val": "Aruba"
+        },
+        {
+          "key": "Australia",
+          "val": "Australia"
+        },
+        {
+          "key": "Austria",
+          "val": "Austria"
+        },
+        {
+          "key": "Azerbaijan",
+          "val": "Azerbaijan"
+        },
+        {
+          "key": "Bahamas",
+          "val": "Bahamas"
+        },
+        {
+          "key": "Bahrain",
+          "val": "Bahrain"
+        },
+        {
+          "key": "Bangladesh",
+          "val": "Bangladesh"
+        },
+        {
+          "key": "Barbados",
+          "val": "Barbados"
+        },
+        {
+          "key": "Belarus",
+          "val": "Belarus"
+        },
+        {
+          "key": "Belgium",
+          "val": "Belgium"
+        },
+        {
+          "key": "Belize",
+          "val": "Belize"
+        },
+        {
+          "key": "Benin",
+          "val": "Benin"
+        },
+        {
+          "key": "Bermuda",
+          "val": "Bermuda"
+        },
+        {
+          "key": "Bhutan",
+          "val": "Bhutan"
+        },
+        {
+          "key": "Bolivia",
+          "val": "Bolivia"
+        },
+        {
+          "key": "Bonaire, Sint Eustatius and Saba",
+          "val": "Bonaire, Sint Eustatius and Saba"
+        },
+        {
+          "key": "Bosnia and Herzegovina",
+          "val": "Bosnia and Herzegovina"
+        },
+        {
+          "key": "Botswana",
+          "val": "Botswana"
+        },
+        {
+          "key": "Bouvet Island",
+          "val": "Bouvet Island"
+        },
+        {
+          "key": "Brazil",
+          "val": "Brazil"
+        },
+        {
+          "key": "British Indian Ocean Territory",
+          "val": "British Indian Ocean Territory"
+        },
+        {
+          "key": "Brunei Darussalam",
+          "val": "Brunei Darussalam"
+        },
+        {
+          "key": "Bulgaria",
+          "val": "Bulgaria"
+        },
+        {
+          "key": "Burkina Faso",
+          "val": "Burkina Faso"
+        },
+        {
+          "key": "Burundi",
+          "val": "Burundi"
+        },
+        {
+          "key": "Cambodia",
+          "val": "Cambodia"
+        },
+        {
+          "key": "Cameroon",
+          "val": "Cameroon"
+        },
+        {
+          "key": "Canada",
+          "val": "Canada"
+        },
+        {
+          "key": "Cape Verde",
+          "val": "Cape Verde"
+        },
+        {
+          "key": "Cayman Islands",
+          "val": "Cayman Islands"
+        },
+        {
+          "key": "Central African Republic",
+          "val": "Central African Republic"
+        },
+        {
+          "key": "Chad",
+          "val": "Chad"
+        },
+        {
+          "key": "Chile",
+          "val": "Chile"
+        },
+        {
+          "key": "China",
+          "val": "China"
+        },
+        {
+          "key": "Christmas Island",
+          "val": "Christmas Island"
+        },
+        {
+          "key": "Cocos (Keeling) Islands",
+          "val": "Cocos (Keeling) Islands"
+        },
+        {
+          "key": "Colombia",
+          "val": "Colombia"
+        },
+        {
+          "key": "Comoros",
+          "val": "Comoros"
+        },
+        {
+          "key": "Congo",
+          "val": "Congo"
+        },
+        {
+          "key": "Congo, the Democratic Republic of the",
+          "val": "Congo, the Democratic Republic of the"
+        },
+        {
+          "key": "Cook Islands",
+          "val": "Cook Islands"
+        },
+        {
+          "key": "Costa Rica",
+          "val": "Costa Rica"
+        },
+        {
+          "key": "Cote D'Ivoire",
+          "val": "Cote D'Ivoire"
+        },
+        {
+          "key": "Croatia",
+          "val": "Croatia"
+        },
+        {
+          "key": "Cuba",
+          "val": "Cuba"
+        },
+        {
+          "key": "Curaçao",
+          "val": "Curaçao"
+        },
+        {
+          "key": "Cyprus",
+          "val": "Cyprus"
+        },
+        {
+          "key": "Czech Republic",
+          "val": "Czech Republic"
+        },
+        {
+          "key": "Denmark",
+          "val": "Denmark"
+        },
+        {
+          "key": "Djibouti",
+          "val": "Djibouti"
+        },
+        {
+          "key": "Dominica",
+          "val": "Dominica"
+        },
+        {
+          "key": "Dominican Republic",
+          "val": "Dominican Republic"
+        },
+        {
+          "key": "Ecuador",
+          "val": "Ecuador"
+        },
+        {
+          "key": "Egypt",
+          "val": "Egypt"
+        },
+        {
+          "key": "El Salvador",
+          "val": "El Salvador"
+        },
+        {
+          "key": "Equatorial Guinea",
+          "val": "Equatorial Guinea"
+        },
+        {
+          "key": "Eritrea",
+          "val": "Eritrea"
+        },
+        {
+          "key": "Estonia",
+          "val": "Estonia"
+        },
+        {
+          "key": "Ethiopia",
+          "val": "Ethiopia"
+        },
+        {
+          "key": "Falkland Islands (Malvinas)",
+          "val": "Falkland Islands (Malvinas)"
+        },
+        {
+          "key": "Faroe Islands",
+          "val": "Faroe Islands"
+        },
+        {
+          "key": "Fiji",
+          "val": "Fiji"
+        },
+        {
+          "key": "Finland",
+          "val": "Finland"
+        },
+        {
+          "key": "France",
+          "val": "France"
+        },
+        {
+          "key": "French Guiana",
+          "val": "French Guiana"
+        },
+        {
+          "key": "French Polynesia",
+          "val": "French Polynesia"
+        },
+        {
+          "key": "French Southern Territories",
+          "val": "French Southern Territories"
+        },
+        {
+          "key": "Gabon",
+          "val": "Gabon"
+        },
+        {
+          "key": "Gambia",
+          "val": "Gambia"
+        },
+        {
+          "key": "Georgia",
+          "val": "Georgia"
+        },
+        {
+          "key": "Germany",
+          "val": "Germany"
+        },
+        {
+          "key": "Ghana",
+          "val": "Ghana"
+        },
+        {
+          "key": "Gibraltar",
+          "val": "Gibraltar"
+        },
+        {
+          "key": "Greece",
+          "val": "Greece"
+        },
+        {
+          "key": "Greenland",
+          "val": "Greenland"
+        },
+        {
+          "key": "Grenada",
+          "val": "Grenada"
+        },
+        {
+          "key": "Guadeloupe",
+          "val": "Guadeloupe"
+        },
+        {
+          "key": "Guam",
+          "val": "Guam"
+        },
+        {
+          "key": "Guatemala",
+          "val": "Guatemala"
+        },
+        {
+          "key": "Guernsey",
+          "val": "Guernsey"
+        },
+        {
+          "key": "Guinea",
+          "val": "Guinea"
+        },
+        {
+          "key": "Guinea-Bissau",
+          "val": "Guinea-Bissau"
+        },
+        {
+          "key": "Guyana",
+          "val": "Guyana"
+        },
+        {
+          "key": "Haiti",
+          "val": "Haiti"
+        },
+        {
+          "key": "Heard Island and Mcdonald Islands",
+          "val": "Heard Island and Mcdonald Islands"
+        },
+        {
+          "key": "Holy See (Vatican City State)",
+          "val": "Holy See (Vatican City State)"
+        },
+        {
+          "key": "Honduras",
+          "val": "Honduras"
+        },
+        {
+          "key": "Hong Kong",
+          "val": "Hong Kong"
+        },
+        {
+          "key": "Hungary",
+          "val": "Hungary"
+        },
+        {
+          "key": "Iceland",
+          "val": "Iceland"
+        },
+        {
+          "key": "India",
+          "val": "India"
+        },
+        {
+          "key": "Indonesia",
+          "val": "Indonesia"
+        },
+        {
+          "key": "Iran, Islamic Republic of",
+          "val": "Iran, Islamic Republic of"
+        },
+        {
+          "key": "Iraq",
+          "val": "Iraq"
+        },
+        {
+          "key": "Ireland",
+          "val": "Ireland"
+        },
+        {
+          "key": "Isle of Man",
+          "val": "Isle of Man"
+        },
+        {
+          "key": "Israel",
+          "val": "Israel"
+        },
+        {
+          "key": "Italy",
+          "val": "Italy"
+        },
+        {
+          "key": "Jamaica",
+          "val": "Jamaica"
+        },
+        {
+          "key": "Japan",
+          "val": "Japan"
+        },
+        {
+          "key": "Jersey",
+          "val": "Jersey"
+        },
+        {
+          "key": "Jordan",
+          "val": "Jordan"
+        },
+        {
+          "key": "Kazakhstan",
+          "val": "Kazakhstan"
+        },
+        {
+          "key": "Kenya",
+          "val": "Kenya"
+        },
+        {
+          "key": "Kiribati",
+          "val": "Kiribati"
+        },
+        {
+          "key": "Kosovo",
+          "val": "Kosovo"
+        },
+        {
+          "key": "Kuwait",
+          "val": "Kuwait"
+        },
+        {
+          "key": "Kyrgyzstan",
+          "val": "Kyrgyzstan"
+        },
+        {
+          "key": "Lao People's Democratic Republic",
+          "val": "Lao People's Democratic Republic"
+        },
+        {
+          "key": "Latvia",
+          "val": "Latvia"
+        },
+        {
+          "key": "Lebanon",
+          "val": "Lebanon"
+        },
+        {
+          "key": "Lesotho",
+          "val": "Lesotho"
+        },
+        {
+          "key": "Liberia",
+          "val": "Liberia"
+        },
+        {
+          "key": "Libyan Arab Jamahiriya",
+          "val": "Libyan Arab Jamahiriya"
+        },
+        {
+          "key": "Liechtenstein",
+          "val": "Liechtenstein"
+        },
+        {
+          "key": "Lithuania",
+          "val": "Lithuania"
+        },
+        {
+          "key": "Luxembourg",
+          "val": "Luxembourg"
+        },
+        {
+          "key": "Macao",
+          "val": "Macao"
+        },
+        {
+          "key": "Macedonia, the Former Yugoslav Republic of",
+          "val": "Macedonia, the Former Yugoslav Republic of"
+        },
+        {
+          "key": "Madagascar",
+          "val": "Madagascar"
+        },
+        {
+          "key": "Malawi",
+          "val": "Malawi"
+        },
+        {
+          "key": "Malaysia",
+          "val": "Malaysia"
+        },
+        {
+          "key": "Maldives",
+          "val": "Maldives"
+        },
+        {
+          "key": "Mali",
+          "val": "Mali"
+        },
+        {
+          "key": "Malta",
+          "val": "Malta"
+        },
+        {
+          "key": "Marshall Islands",
+          "val": "Marshall Islands"
+        },
+        {
+          "key": "Martinique",
+          "val": "Martinique"
+        },
+        {
+          "key": "Mauritania",
+          "val": "Mauritania"
+        },
+        {
+          "key": "Mauritius",
+          "val": "Mauritius"
+        },
+        {
+          "key": "Mayotte",
+          "val": "Mayotte"
+        },
+        {
+          "key": "Mexico",
+          "val": "Mexico"
+        },
+        {
+          "key": "Micronesia, Federated States of",
+          "val": "Micronesia, Federated States of"
+        },
+        {
+          "key": "Moldova, Republic of",
+          "val": "Moldova, Republic of"
+        },
+        {
+          "key": "Monaco",
+          "val": "Monaco"
+        },
+        {
+          "key": "Mongolia",
+          "val": "Mongolia"
+        },
+        {
+          "key": "Montenegro",
+          "val": "Montenegro"
+        },
+        {
+          "key": "Montserrat",
+          "val": "Montserrat"
+        },
+        {
+          "key": "Morocco",
+          "val": "Morocco"
+        },
+        {
+          "key": "Mozambique",
+          "val": "Mozambique"
+        },
+        {
+          "key": "Myanmar",
+          "val": "Myanmar"
+        },
+        {
+          "key": "Namibia",
+          "val": "Namibia"
+        },
+        {
+          "key": "Nauru",
+          "val": "Nauru"
+        },
+        {
+          "key": "Nepal",
+          "val": "Nepal"
+        },
+        {
+          "key": "Netherlands",
+          "val": "Netherlands"
+        },
+        {
+          "key": "New Caledonia",
+          "val": "New Caledonia"
+        },
+        {
+          "key": "New Zealand",
+          "val": "New Zealand"
+        },
+        {
+          "key": "Nicaragua",
+          "val": "Nicaragua"
+        },
+        {
+          "key": "Niger",
+          "val": "Niger"
+        },
+        {
+          "key": "Nigeria",
+          "val": "Nigeria"
+        },
+        {
+          "key": "Niue",
+          "val": "Niue"
+        },
+        {
+          "key": "Norfolk Island",
+          "val": "Norfolk Island"
+        },
+        {
+          "key": "North Korea",
+          "val": "North Korea"
+        },
+        {
+          "key": "Northern Mariana Islands",
+          "val": "Northern Mariana Islands"
+        },
+        {
+          "key": "Norway",
+          "val": "Norway"
+        },
+        {
+          "key": "Oman",
+          "val": "Oman"
+        },
+        {
+          "key": "Pakistan",
+          "val": "Pakistan"
+        },
+        {
+          "key": "Palau",
+          "val": "Palau"
+        },
+        {
+          "key": "Palestinian Territory, Occupied",
+          "val": "Palestinian Territory, Occupied"
+        },
+        {
+          "key": "Panama",
+          "val": "Panama"
+        },
+        {
+          "key": "Papua New Guinea",
+          "val": "Papua New Guinea"
+        },
+        {
+          "key": "Paraguay",
+          "val": "Paraguay"
+        },
+        {
+          "key": "Peru",
+          "val": "Peru"
+        },
+        {
+          "key": "Philippines",
+          "val": "Philippines"
+        },
+        {
+          "key": "Pitcairn",
+          "val": "Pitcairn"
+        },
+        {
+          "key": "Poland",
+          "val": "Poland"
+        },
+        {
+          "key": "Portugal",
+          "val": "Portugal"
+        },
+        {
+          "key": "Puerto Rico",
+          "val": "Puerto Rico"
+        },
+        {
+          "key": "Qatar",
+          "val": "Qatar"
+        },
+        {
+          "key": "Reunion",
+          "val": "Reunion"
+        },
+        {
+          "key": "Romania",
+          "val": "Romania"
+        },
+        {
+          "key": "Russian Federation",
+          "val": "Russian Federation"
+        },
+        {
+          "key": "Rwanda",
+          "val": "Rwanda"
+        },
+        {
+          "key": "Saint Barthélemy",
+          "val": "Saint Barthélemy"
+        },
+        {
+          "key": "Saint Helena",
+          "val": "Saint Helena"
+        },
+        {
+          "key": "Saint Kitts and Nevis",
+          "val": "Saint Kitts and Nevis"
+        },
+        {
+          "key": "Saint Lucia",
+          "val": "Saint Lucia"
+        },
+        {
+          "key": "Saint Martin (French part)",
+          "val": "Saint Martin (French part)"
+        },
+        {
+          "key": "Saint Pierre and Miquelon",
+          "val": "Saint Pierre and Miquelon"
+        },
+        {
+          "key": "Saint Vincent and the Grenadines",
+          "val": "Saint Vincent and the Grenadines"
+        },
+        {
+          "key": "Samoa",
+          "val": "Samoa"
+        },
+        {
+          "key": "San Marino",
+          "val": "San Marino"
+        },
+        {
+          "key": "Sao Tome and Principe",
+          "val": "Sao Tome and Principe"
+        },
+        {
+          "key": "Saudi Arabia",
+          "val": "Saudi Arabia"
+        },
+        {
+          "key": "Senegal",
+          "val": "Senegal"
+        },
+        {
+          "key": "Serbia",
+          "val": "Serbia"
+        },
+        {
+          "key": "Seychelles",
+          "val": "Seychelles"
+        },
+        {
+          "key": "Sierra Leone",
+          "val": "Sierra Leone"
+        },
+        {
+          "key": "Singapore",
+          "val": "Singapore"
+        },
+        {
+          "key": "Sint Maarten (Dutch part)",
+          "val": "Sint Maarten (Dutch part)"
+        },
+        {
+          "key": "Slovakia",
+          "val": "Slovakia"
+        },
+        {
+          "key": "Slovenia",
+          "val": "Slovenia"
+        },
+        {
+          "key": "Solomon Islands",
+          "val": "Solomon Islands"
+        },
+        {
+          "key": "Somalia",
+          "val": "Somalia"
+        },
+        {
+          "key": "South Africa",
+          "val": "South Africa"
+        },
+        {
+          "key": "South Georgia and the South Sandwich Islands",
+          "val": "South Georgia and the South Sandwich Islands"
+        },
+        {
+          "key": "South Korea",
+          "val": "South Korea"
+        },
+        {
+          "key": "South Sudan",
+          "val": "South Sudan"
+        },
+        {
+          "key": "Spain",
+          "val": "Spain"
+        },
+        {
+          "key": "Sri Lanka",
+          "val": "Sri Lanka"
+        },
+        {
+          "key": "Sudan",
+          "val": "Sudan"
+        },
+        {
+          "key": "Suriname",
+          "val": "Suriname"
+        },
+        {
+          "key": "Svalbard and Jan Mayen",
+          "val": "Svalbard and Jan Mayen"
+        },
+        {
+          "key": "Swaziland",
+          "val": "Swaziland"
+        },
+        {
+          "key": "Sweden",
+          "val": "Sweden"
+        },
+        {
+          "key": "Switzerland",
+          "val": "Switzerland"
+        },
+        {
+          "key": "Syrian Arab Republic",
+          "val": "Syrian Arab Republic"
+        },
+        {
+          "key": "Taiwan",
+          "val": "Taiwan"
+        },
+        {
+          "key": "Tajikistan",
+          "val": "Tajikistan"
+        },
+        {
+          "key": "Tanzania, United Republic of",
+          "val": "Tanzania, United Republic of"
+        },
+        {
+          "key": "Thailand",
+          "val": "Thailand"
+        },
+        {
+          "key": "Timor-Leste",
+          "val": "Timor-Leste"
+        },
+        {
+          "key": "Togo",
+          "val": "Togo"
+        },
+        {
+          "key": "Tokelau",
+          "val": "Tokelau"
+        },
+        {
+          "key": "Tonga",
+          "val": "Tonga"
+        },
+        {
+          "key": "Trinidad and Tobago",
+          "val": "Trinidad and Tobago"
+        },
+        {
+          "key": "Tunisia",
+          "val": "Tunisia"
+        },
+        {
+          "key": "Turkey",
+          "val": "Turkey"
+        },
+        {
+          "key": "Turkmenistan",
+          "val": "Turkmenistan"
+        },
+        {
+          "key": "Turks and Caicos Islands",
+          "val": "Turks and Caicos Islands"
+        },
+        {
+          "key": "Tuvalu",
+          "val": "Tuvalu"
+        },
+        {
+          "key": "Uganda",
+          "val": "Uganda"
+        },
+        {
+          "key": "Ukraine",
+          "val": "Ukraine"
+        },
+        {
+          "key": "United Arab Emirates",
+          "val": "United Arab Emirates"
+        },
+        {
+          "key": "United Kingdom",
+          "val": "United Kingdom"
+        },
+        {
+          "key": "United States Minor Outlying Islands",
+          "val": "United States Minor Outlying Islands"
+        },
+        {
+          "key": "United States of America",
+          "val": "United States of America"
+        },
+        {
+          "key": "Uruguay",
+          "val": "Uruguay"
+        },
+        {
+          "key": "Uzbekistan",
+          "val": "Uzbekistan"
+        },
+        {
+          "key": "Vanuatu",
+          "val": "Vanuatu"
+        },
+        {
+          "key": "Venezuela",
+          "val": "Venezuela"
+        },
+        {
+          "key": "Viet Nam",
+          "val": "Viet Nam"
+        },
+        {
+          "key": "Virgin Islands, British",
+          "val": "Virgin Islands, British"
+        },
+        {
+          "key": "Virgin Islands, U.S.",
+          "val": "Virgin Islands, U.S."
+        },
+        {
+          "key": "Wallis and Futuna",
+          "val": "Wallis and Futuna"
+        },
+        {
+          "key": "Western Sahara",
+          "val": "Western Sahara"
+        },
+        {
+          "key": "Yemen",
+          "val": "Yemen"
+        },
+        {
+          "key": "Zambia",
+          "val": "Zambia"
+        },
+        {
+          "key": "Zimbabwe",
+          "val": "Zimbabwe"
+        },
+        {
+          "key": "Åland Islands",
+          "val": "Åland Islands"
+        }
+      ]
+    },
+    {
+      "attribute": "date",
+      "title": "date",
+      "type": "date",
+      "operator": [
+        {
+          "key": "is before",
+          "val": "lt"
+        },
+        {
+          "key": "is after",
+          "val": "gt"
+        },
+        {
+          "key": "in between",
+          "val": "gt&lt"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "osVersion",
+      "title": "OS version",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        },
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": true,
+      "possibleValue": [
+        {
+          "key": "5.0",
+          "val": "5.0",
+          "type": "ios"
+        },
+        {
+          "key": "5.0.1",
+          "val": "5.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "5.1",
+          "val": "5.1",
+          "type": "ios"
+        },
+        {
+          "key": "5.1.1",
+          "val": "5.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "6.0",
+          "val": "6.0",
+          "type": "ios"
+        },
+        {
+          "key": "6.0.1",
+          "val": "6.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "6.0.2",
+          "val": "6.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "6.1",
+          "val": "6.1",
+          "type": "ios"
+        },
+        {
+          "key": "6.1.1",
+          "val": "6.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "6.1.2",
+          "val": "6.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "6.1.3",
+          "val": "6.1.3",
+          "type": "ios"
+        },
+        {
+          "key": "6.1.4",
+          "val": "6.1.4",
+          "type": "ios"
+        },
+        {
+          "key": "6.1.6",
+          "val": "6.1.6",
+          "type": "ios"
+        },
+        {
+          "key": "7.0",
+          "val": "7.0",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.1",
+          "val": "7.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.2",
+          "val": "7.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.3",
+          "val": "7.0.3",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.4",
+          "val": "7.0.4",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.5",
+          "val": "7.0.5",
+          "type": "ios"
+        },
+        {
+          "key": "7.0.6",
+          "val": "7.0.6",
+          "type": "ios"
+        },
+        {
+          "key": "7.1",
+          "val": "7.1",
+          "type": "ios"
+        },
+        {
+          "key": "7.1.1",
+          "val": "7.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "7.1.2",
+          "val": "7.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "8.0",
+          "val": "8.0",
+          "type": "ios"
+        },
+        {
+          "key": "8.0.1",
+          "val": "8.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "8.0.2",
+          "val": "8.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "8.1",
+          "val": "8.1",
+          "type": "ios"
+        },
+        {
+          "key": "8.1.1",
+          "val": "8.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "8.1.2",
+          "val": "8.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "8.1.3",
+          "val": "8.1.3",
+          "type": "ios"
+        },
+        {
+          "key": "8.2",
+          "val": "8.2",
+          "type": "ios"
+        },
+        {
+          "key": "8.3",
+          "val": "8.3",
+          "type": "ios"
+        },
+        {
+          "key": "8.4",
+          "val": "8.4",
+          "type": "ios"
+        },
+        {
+          "key": "8.4.1",
+          "val": "8.4.1",
+          "type": "ios"
+        },
+        {
+          "key": "9.0",
+          "val": "9.0",
+          "type": "ios"
+        },
+        {
+          "key": "9.0.1",
+          "val": "9.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "9.0.2",
+          "val": "9.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "9.1",
+          "val": "9.1",
+          "type": "ios"
+        },
+        {
+          "key": "9.2",
+          "val": "9.2",
+          "type": "ios"
+        },
+        {
+          "key": "9.2.1",
+          "val": "9.2.1",
+          "type": "ios"
+        },
+        {
+          "key": "9.3",
+          "val": "9.3",
+          "type": "ios"
+        },
+        {
+          "key": "9.3.1",
+          "val": "9.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "9.3.2",
+          "val": "9.3.2",
+          "type": "ios"
+        },
+        {
+          "key": "9.3.3",
+          "val": "9.3.3",
+          "type": "ios"
+        },
+        {
+          "key": "9.3.4",
+          "val": "9.3.4",
+          "type": "ios"
+        },
+        {
+          "key": "9.3.5",
+          "val": "9.3.5",
+          "type": "ios"
+        },
+        {
+          "key": "10.0.1",
+          "val": "10.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "10.0.2",
+          "val": "10.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "10.0.3",
+          "val": "10.0.3",
+          "type": "ios"
+        },
+        {
+          "key": "10.1",
+          "val": "10.1",
+          "type": "ios"
+        },
+        {
+          "key": "10.1.1",
+          "val": "10.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "10.2",
+          "val": "10.2",
+          "type": "ios"
+        },
+        {
+          "key": "10.2.1",
+          "val": "10.2.1",
+          "type": "ios"
+        },
+        {
+          "key": "10.3",
+          "val": "10.3",
+          "type": "ios"
+        },
+        {
+          "key": "10.3.1",
+          "val": "10.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "10.3.2",
+          "val": "10.3.2",
+          "type": "ios"
+        },
+        {
+          "key": "10.3.3",
+          "val": "10.3.3",
+          "type": "ios"
+        },
+        {
+          "key": "11.0",
+          "val": "11.0",
+          "type": "ios"
+        },
+        {
+          "key": "11.0.1",
+          "val": "11.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "11.0.2",
+          "val": "11.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "11.0.3",
+          "val": "11.0.3",
+          "type": "ios"
+        },
+        {
+          "key": "11.2",
+          "val": "11.2",
+          "type": "ios"
+        },
+        {
+          "key": "11.2.1",
+          "val": "11.2.1",
+          "type": "ios"
+        },
+        {
+          "key": "11.2.2",
+          "val": "11.2.2",
+          "type": "ios"
+        },
+        {
+          "key": "11.2.5",
+          "val": "11.2.5",
+          "type": "ios"
+        },
+        {
+          "key": "11.2.6",
+          "val": "11.2.6",
+          "type": "ios"
+        },
+        {
+          "key": "11.3",
+          "val": "11.3",
+          "type": "ios"
+        },
+        {
+          "key": "11.3.1",
+          "val": "11.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "11.4",
+          "val": "11.4",
+          "type": "ios"
+        },
+        {
+          "key": "11.4.1",
+          "val": "11.4.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.0",
+          "val": "12.0",
+          "type": "ios"
+        },
+        {
+          "key": "4.0",
+          "val": "4.0",
+          "type": "android"
+        },
+        {
+          "key": "4.0.1",
+          "val": "4.0.1",
+          "type": "android"
+        },
+        {
+          "key": "4.0.2",
+          "val": "4.0.2",
+          "type": "android"
+        },
+        {
+          "key": "4.0.3",
+          "val": "4.0.3",
+          "type": "android"
+        },
+        {
+          "key": "4.0.4",
+          "val": "4.0.4",
+          "type": "android"
+        },
+        {
+          "key": "4.1",
+          "val": "4.1",
+          "type": "android"
+        },
+        {
+          "key": "4.1.1",
+          "val": "4.1.1",
+          "type": "android"
+        },
+        {
+          "key": "4.1.2",
+          "val": "4.1.2",
+          "type": "android"
+        },
+        {
+          "key": "4.2",
+          "val": "4.2",
+          "type": "android"
+        },
+        {
+          "key": "4.2.1",
+          "val": "4.2.1",
+          "type": "android"
+        },
+        {
+          "key": "4.2.2",
+          "val": "4.2.2",
+          "type": "android"
+        },
+        {
+          "key": "4.3",
+          "val": "4.3",
+          "type": "android"
+        },
+        {
+          "key": "4.3.1",
+          "val": "4.3.1",
+          "type": "android"
+        },
+        {
+          "key": "4.4",
+          "val": "4.4",
+          "type": "android"
+        },
+        {
+          "key": "4.4.1",
+          "val": "4.4.1",
+          "type": "android"
+        },
+        {
+          "key": "4.4.2",
+          "val": "4.4.2",
+          "type": "android"
+        },
+        {
+          "key": "4.4.3",
+          "val": "4.4.3",
+          "type": "android"
+        },
+        {
+          "key": "4.4.4",
+          "val": "4.4.4",
+          "type": "android"
+        },
+        {
+          "key": "5.0",
+          "val": "5.0",
+          "type": "android"
+        },
+        {
+          "key": "5.0.1",
+          "val": "5.0.1",
+          "type": "android"
+        },
+        {
+          "key": "5.0.2",
+          "val": "5.0.2",
+          "type": "android"
+        },
+        {
+          "key": "5.1",
+          "val": "5.1",
+          "type": "android"
+        },
+        {
+          "key": "5.1.1",
+          "val": "5.1.1",
+          "type": "android"
+        },
+        {
+          "key": "6.0",
+          "val": "6.0",
+          "type": "android"
+        },
+        {
+          "key": "6.0.1",
+          "val": "6.0.1",
+          "type": "android"
+        },
+        {
+          "key": "7.0",
+          "val": "7.0",
+          "type": "android"
+        },
+        {
+          "key": "7.1",
+          "val": "7.1",
+          "type": "android"
+        },
+        {
+          "key": "7.1.1",
+          "val": "7.1.1",
+          "type": "android"
+        },
+        {
+          "key": "8.0.0",
+          "val": "8.0.0",
+          "type": "android"
+        },
+        {
+          "key": "8.1.0",
+          "val": "8.1.0",
+          "type": "android"
+        },
+        {
+          "key": "9",
+          "val": "9",
+          "type": "android"
+        },
+        {
+          "key": "12.0.1",
+          "val": "12.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.1",
+          "val": "12.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.1.1",
+          "val": "12.1.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.1.2",
+          "val": "12.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "12.1.3",
+          "val": "12.1.3",
+          "type": "ios"
+        },
+        {
+          "key": "10",
+          "val": "10",
+          "type": "android"
+        },
+        {
+          "key": "12.2",
+          "val": "12.2",
+          "type": "ios"
+        },
+        {
+          "key": "12.3",
+          "val": "12.3",
+          "type": "ios"
+        },
+        {
+          "key": "12.3.1",
+          "val": "12.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.3.2",
+          "val": "12.3.2",
+          "type": "ios"
+        },
+        {
+          "key": "12.4",
+          "val": "12.4",
+          "type": "ios"
+        },
+        {
+          "key": "12.4.1",
+          "val": "12.4.1",
+          "type": "ios"
+        },
+        {
+          "key": "12.4.2",
+          "val": "12.4.2",
+          "type": "ios"
+        },
+        {
+          "key": "12.4.3",
+          "val": "12.4.3",
+          "type": "ios"
+        },
+        {
+          "key": "12.4.4",
+          "val": "12.4.4",
+          "type": "ios"
+        },
+        {
+          "key": "12.4.5",
+          "val": "12.4.5",
+          "type": "ios"
+        },
+        {
+          "key": "13.3",
+          "val": "13.3",
+          "type": "ios"
+        },
+        {
+          "key": "13.3.1",
+          "val": "13.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "11",
+          "val": "11",
+          "type": "android"
+        },
+        {
+          "key": "12.0",
+          "val": "12.0",
+          "type": "android"
+        },
+        {
+          "key": "10.1",
+          "val": "10.1",
+          "type": "android"
+        },
+        {
+          "key": "7.1.2",
+          "val": "7.1.2",
+          "type": "android"
+        },
+        {
+          "key": "13.0",
+          "val": "13.0",
+          "type": "android"
+        },
+        {
+          "key": "12.1",
+          "val": "12.1",
+          "type": "android"
+        },
+        {
+          "key": "6.1",
+          "val": "6.1",
+          "type": "android"
+        },
+        {
+          "key": "12.5.5",
+          "val": "12.5.5",
+          "type": "ios"
+        },
+        {
+          "key": "13.1.2",
+          "val": "13.1.2",
+          "type": "ios"
+        },
+        {
+          "key": "13.7",
+          "val": "13.7",
+          "type": "ios"
+        },
+        {
+          "key": "14.3",
+          "val": "14.3",
+          "type": "ios"
+        },
+        {
+          "key": "14.4",
+          "val": "14.4",
+          "type": "ios"
+        },
+        {
+          "key": "14.5.1",
+          "val": "14.5.1",
+          "type": "ios"
+        },
+        {
+          "key": "14.7.1",
+          "val": "14.7.1",
+          "type": "ios"
+        },
+        {
+          "key": "14.8.1",
+          "val": "14.8.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.0.1",
+          "val": "15.0.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.0.2",
+          "val": "15.0.2",
+          "type": "ios"
+        },
+        {
+          "key": "15.1",
+          "val": "15.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.2.1",
+          "val": "15.2.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.3.1",
+          "val": "15.3.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.4",
+          "val": "15.4",
+          "type": "ios"
+        },
+        {
+          "key": "15.4.1",
+          "val": "15.4.1",
+          "type": "ios"
+        },
+        {
+          "key": "15.5",
+          "val": "15.5",
+          "type": "ios"
+        }
+      ]
+    },
+    {
+      "attribute": "deviceModel",
+      "title": "model",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        },
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": true,
+      "possibleValue": []
+    },
+    {
+      "attribute": "duration",
+      "title": "duration [in seconds]",
+      "type": "float",
+      "operator": [
+        {
+          "key": "is greater than",
+          "val": "gt"
+        },
+        {
+          "key": "is less than",
+          "val": "lt"
+        },
+        {
+          "key": "in between",
+          "val": "gt&lt"
+        }
+      ],
+      "unit": [
+        {
+          "attribute": "sec",
+          "title": "sec"
+        }
+      ],
+      "isSearchable": false,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "noOfInteraction",
+      "title": "number of interactions",
+      "type": "float",
+      "operator": [
+        {
+          "key": "is greater than or equal to",
+          "val": "gtEq"
+        },
+        {
+          "key": "is less than or equal to",
+          "val": "ltEq"
+        },
+        {
+          "key": "in between",
+          "val": "gt&lt"
+        }
+      ],
+      "unit": [],
+      "isSearchable": false,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "screen",
+      "title": "Any of the following screens were visited",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "screen",
+      "title": "None of the following screens were visited",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "event",
+      "title": "Any of the following events happened",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "event",
+      "title": "None of the following events happened",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "recordingScreen",
+      "title": "Video recording of all screens",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "recordingScreen",
+      "title": "Record video only on following screens",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is any of",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "attribute": "recordingScreen",
+      "title": "Exclude video recording on following screens",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is none of",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    }
+  ]

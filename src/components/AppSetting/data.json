@@ -1,0 +1,286 @@
+[
+    {
+      "key": 10,
+      "attribute": "screen",
+      "label": "Any of the following screens were visited",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "key": 11,
+      "attribute": "screen",
+      "label": "None of the following screens were visited",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is not",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "key": 12,
+      "attribute": "event",
+      "label": "Any of the following events happened",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is",
+          "val": "is"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "key": 13,
+      "attribute": "event",
+      "label": "None of the following events happened",
+      "type": "categorical",
+      "operator": [
+        {
+          "key": "is not",
+          "val": "isNot"
+        }
+      ],
+      "unit": [],
+      "isSearchable": true,
+      "isValuePredefined": false,
+      "possibleValue": []
+    },
+    {
+      "type": "group",
+      "label": "Session properties:",
+      "children": [
+        {
+          "key": 1,
+          "attribute": "isCrashed",
+          "label": "isCrashed",
+          "type": "boolean",
+          "operator": [
+            {
+              "key": "is true",
+              "val": "is"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": true,
+          "possibleValue": [
+            {
+              "key": "is true",
+              "val": true
+            },
+            {
+              "key": "is false",
+              "val": false
+            }
+          ]
+        },
+        {
+          "key": 4,
+          "attribute": "country",
+          "label": "country",
+          "type": "categorical",
+          "operator": [
+            {
+              "key": "is any of",
+              "val": "is"
+            },
+            {
+              "key": "is none of",
+              "val": "isNot"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": true,
+          "possibleValue": []
+        },
+        {
+          "key": 5,
+          "attribute": "date",
+          "label": "date",
+          "type": "date",
+          "operator": [
+            {
+              "key": "is before",
+              "val": "lt"
+            },
+            {
+              "key": "is after",
+              "val": "gt"
+            },
+            {
+              "key": "in between",
+              "val": "gt&lt"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": false,
+          "possibleValue": []
+        },
+        {
+          "key": 8,
+          "attribute": "duration",
+          "label": "duration [in seconds]",
+          "type": "float",
+          "operator": [
+            {
+              "key": "is greater than",
+              "val": "gt"
+            },
+            {
+              "key": "is less than",
+              "val": "lt"
+            },
+            {
+              "key": "in between",
+              "val": "gt&lt"
+            }
+          ],
+          "unit": [
+            {
+              "attribute": "sec",
+              "title": "sec"
+            }
+          ],
+          "isSearchable": false,
+          "isValuePredefined": false,
+          "possibleValue": []
+        },
+        {
+          "key": 9,
+          "attribute": "noOfInteraction",
+          "label": "number of interactions",
+          "type": "float",
+          "operator": [
+            {
+              "key": "is greater than or equal to",
+              "val": "gtEq"
+            },
+            {
+              "key": "is less than or equal to",
+              "val": "ltEq"
+            },
+            {
+              "key": "in between",
+              "val": "gt&lt"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": false,
+          "possibleValue": []
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Versions:",
+      "children": [
+        {
+          "key": 2,
+          "attribute": "appVersion",
+          "label": "App version",
+          "type": "categorical",
+          "operator": [
+            {
+              "key": "is any of",
+              "val": "is"
+            },
+            {
+              "key": "is none of",
+              "val": "isNot"
+            }
+          ],
+          "unit": [],
+          "isSearchable": true,
+          "isValuePredefined": false,
+          "possibleValue": []
+        },
+        {
+          "key": 3,
+          "attribute": "sdkVersion",
+          "label": "UXCam SDK version",
+          "type": "categorical",
+          "operator": [
+            {
+              "key": "is any of",
+              "val": "is"
+            },
+            {
+              "key": "is none of",
+              "val": "isNot"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": true,
+          "possibleValue": []
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": "Device properties:",
+      "children": [
+        {
+          "key": 6,
+          "attribute": "osVersion",
+          "label": "OS version",
+          "type": "categorical",
+          "operator": [
+            {
+              "key": "is any of",
+              "val": "is"
+            },
+            {
+              "key": "is none of",
+              "val": "isNot"
+            }
+          ],
+          "unit": [],
+          "isSearchable": false,
+          "isValuePredefined": true,
+          "possibleValue": []
+        },
+        {
+          "key": 7,
+          "attribute": "deviceModel",
+          "label": "model",
+          "type": "categorical",
+          "operator": [
+            {
+              "key": "is any of",
+              "val": "is"
+            },
+            {
+              "key": "is none of",
+              "val": "isNot"
+            }
+          ],
+          "unit": [],
+          "isSearchable": true,
+          "isValuePredefined": true,
+          "possibleValue": []
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShot matches renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "center",
+      "margin": " 30px",
+    }
+  }
+>
+  <h2>
+    Hello Unit Test World!
+  </h2>
+  <p>
+    It's glad to see you!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Change text!
+  </button>
+</div>
+`;

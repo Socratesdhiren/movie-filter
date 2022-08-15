@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.ant-dropdown-menu-item{
+  color: #1890ff;
+
+}
+.ant-dropdown-menu-item-group-list {
+  margin: 0;
+}
+.ant-dropdown-menu-item-group-title {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+.ant-popover-inner-content {
+  padding: 0;
+  color:  #1890ff;
+}
+.ant-menu-item.ant-menu-item-only-child{
+  margin: 0!important;
+}
+.ant-menu-vertical.ant-menu-item.ant-menu-item-only-child{
+  margin-bottom: 0;
+}
+
+.ant-menu-vertical.ant-menu-item{
+  margin-bottom: 2px !important;
+}
+
+.ant-menu-vertical > .ant-menu-item {
+  height: 30px;
+}
+.ant-menu-vertical .ant-menu-item{
+  padding: 0px 8px;
+
+}
+.ant-menu-item-group-title {
+  padding: 8px;
+}
+.ant-menu-item-group-list .ant-menu-item.ant-menu-item-only-child{
+  height: 29px;
+} 
+
+.main-div{
+  padding: 120px;
+}
+
+.ant-space{
+  display: flex !important;
+}
+
+.ant-space-align-baseline {
+  display: flex !important;
+  padding: 4px;
+  margin: 8px;
+  border: 1px solid #40a9ff;
+  align-items: center;
+  width: fit-content;
+
+}
+
+
+.ant-space-item .ant-form-item{
+  margin: 0;
+}
